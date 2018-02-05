@@ -19,7 +19,7 @@ namespace InheritanceAnyPolymorphismPractice
 
 
        //constructor:
-        public RattleSnake(int length) : base("reptile", false)
+        public RattleSnake(int length) : base("reptile", false, true)
         {
             this.snakeLength = length;
             this.NumberOfLegs = 0;
@@ -29,7 +29,7 @@ namespace InheritanceAnyPolymorphismPractice
         //methods:
         public void Rattle()
         {
-            Console.WriteLine("\a");
+            Console.WriteLine("\a\a\a\a\a");
         }
     }
 }
